@@ -1,0 +1,2461 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1",
+      "screens": [
+        {
+          "id": "23:31",
+          "name": "Dashboard - Owner",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9764705896377563,
+                "b": 0.9882352948188782
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0,
+          "children": [
+            {
+              "id": "23:32",
+              "name": "Sidebar",
+              "type": "FRAME",
+              "x": 0,
+              "y": 0,
+              "width": 260,
+              "height": 900,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:38",
+              "name": "Menu - Tổng quan",
+              "type": "RECTANGLE",
+              "x": 12,
+              "y": 80,
+              "width": 236,
+              "height": 48,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9333333373069763,
+                    "g": 0.9490196108818054,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:39",
+              "name": "Menu Text - Tổng quan",
+              "type": "TEXT",
+              "x": 56,
+              "y": 95,
+              "width": 70,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.8980392217636108
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Tổng quan",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.30980393290519714,
+                "g": 0.27450981736183167,
+                "b": 0.8980392217636108
+              }
+            },
+            {
+              "id": "23:40",
+              "name": "Menu - Nhà trọ",
+              "type": "TEXT",
+              "x": 56,
+              "y": 140,
+              "width": 50,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Nhà trọ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:41",
+              "name": "Menu - Phòng",
+              "type": "TEXT",
+              "x": 56,
+              "y": 180,
+              "width": 43,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Phòng",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:42",
+              "name": "Menu - Hợp đồng",
+              "type": "TEXT",
+              "x": 56,
+              "y": 220,
+              "width": 65,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Hợp đồng",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:43",
+              "name": "Menu - Hóa đơn",
+              "type": "TEXT",
+              "x": 56,
+              "y": 260,
+              "width": 56,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Hóa đơn",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:44",
+              "name": "Menu - Điện nước",
+              "type": "TEXT",
+              "x": 56,
+              "y": 300,
+              "width": 67,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Điện nước",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:45",
+              "name": "Menu - Bảo trì",
+              "type": "TEXT",
+              "x": 56,
+              "y": 340,
+              "width": 43,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Bảo trì",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:46",
+              "name": "Menu - Dịch vụ",
+              "type": "TEXT",
+              "x": 56,
+              "y": 380,
+              "width": 50,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Dịch vụ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:47",
+              "name": "Menu - Thống kê",
+              "type": "TEXT",
+              "x": 56,
+              "y": 420,
+              "width": 62,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Thống kê",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            },
+            {
+              "id": "23:48",
+              "name": "Page Title",
+              "type": "TEXT",
+              "x": 300,
+              "y": 88,
+              "width": 124,
+              "height": 29,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.06666667014360428,
+                    "g": 0.0941176488995552,
+                    "b": 0.15294118225574493
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Tổng quan",
+              "fontSize": 24,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.06666667014360428,
+                "g": 0.0941176488995552,
+                "b": 0.15294118225574493
+              }
+            },
+            {
+              "id": "23:49",
+              "name": "Stat Card - Total",
+              "type": "RECTANGLE",
+              "x": 300,
+              "y": 140,
+              "width": 260,
+              "height": 100,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:50",
+              "name": "Stat Value - 24",
+              "type": "TEXT",
+              "x": 340,
+              "y": 160,
+              "width": 37,
+              "height": 34,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.06666667014360428,
+                    "g": 0.0941176488995552,
+                    "b": 0.15294118225574493
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "24",
+              "fontSize": 28,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.06666667014360428,
+                "g": 0.0941176488995552,
+                "b": 0.15294118225574493
+              }
+            },
+            {
+              "id": "23:51",
+              "name": "Stat Label - Tổng phòng",
+              "type": "TEXT",
+              "x": 340,
+              "y": 200,
+              "width": 79,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Tổng phòng",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:52",
+              "name": "Stat Card - Rented",
+              "type": "RECTANGLE",
+              "x": 580,
+              "y": 140,
+              "width": 260,
+              "height": 100,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:53",
+              "name": "Stat Card - Empty",
+              "type": "RECTANGLE",
+              "x": 860,
+              "y": 140,
+              "width": 260,
+              "height": 100,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:54",
+              "name": "Stat Card - Maintain",
+              "type": "RECTANGLE",
+              "x": 1140,
+              "y": 140,
+              "width": 260,
+              "height": 100,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:55",
+              "name": "Stat Value - 18",
+              "type": "TEXT",
+              "x": 620,
+              "y": 160,
+              "width": 33,
+              "height": 34,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.14509804546833038,
+                    "g": 0.38823530077934265,
+                    "b": 0.9215686321258545
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "18",
+              "fontSize": 28,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.14509804546833038,
+                "g": 0.38823530077934265,
+                "b": 0.9215686321258545
+              }
+            },
+            {
+              "id": "23:56",
+              "name": "Stat Value - 4",
+              "type": "TEXT",
+              "x": 900,
+              "y": 160,
+              "width": 19,
+              "height": 34,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9607843160629272,
+                    "g": 0.6196078658103943,
+                    "b": 0.04313725605607033
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "4",
+              "fontSize": 28,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.9607843160629272,
+                "g": 0.6196078658103943,
+                "b": 0.04313725605607033
+              }
+            },
+            {
+              "id": "23:57",
+              "name": "Stat Value - 2",
+              "type": "TEXT",
+              "x": 1180,
+              "y": 160,
+              "width": 18,
+              "height": 34,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9372549057006836,
+                    "g": 0.2666666805744171,
+                    "b": 0.2666666805744171
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "2",
+              "fontSize": 28,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.9372549057006836,
+                "g": 0.2666666805744171,
+                "b": 0.2666666805744171
+              }
+            },
+            {
+              "id": "23:58",
+              "name": "Stat Label - Đang thuê",
+              "type": "TEXT",
+              "x": 620,
+              "y": 200,
+              "width": 69,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Đang thuê",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:59",
+              "name": "Stat Label - Trống",
+              "type": "TEXT",
+              "x": 900,
+              "y": 200,
+              "width": 39,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Trống",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:60",
+              "name": "Stat Label - Bảo trì",
+              "type": "TEXT",
+              "x": 1180,
+              "y": 200,
+              "width": 43,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Bảo trì",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:61",
+              "name": "Chart Card",
+              "type": "RECTANGLE",
+              "x": 300,
+              "y": 270,
+              "width": 700,
+              "height": 320,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:62",
+              "name": "Chart Title",
+              "type": "TEXT",
+              "x": 340,
+              "y": 295,
+              "width": 217,
+              "height": 19,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.06666667014360428,
+                    "g": 0.0941176488995552,
+                    "b": 0.15294118225574493
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Doanh thu 6 tháng gần nhất",
+              "fontSize": 16,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.06666667014360428,
+                "g": 0.0941176488995552,
+                "b": 0.15294118225574493
+              }
+            },
+            {
+              "id": "23:63",
+              "name": "Bar - T11",
+              "type": "RECTANGLE",
+              "x": 360,
+              "y": 380,
+              "width": 60,
+              "height": 120,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:64",
+              "name": "Bar - T12",
+              "type": "RECTANGLE",
+              "x": 460,
+              "y": 360,
+              "width": 60,
+              "height": 140,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:65",
+              "name": "Bar - T1",
+              "type": "RECTANGLE",
+              "x": 560,
+              "y": 400,
+              "width": 60,
+              "height": 100,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:66",
+              "name": "Bar - T2",
+              "type": "RECTANGLE",
+              "x": 660,
+              "y": 370,
+              "width": 60,
+              "height": 130,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:67",
+              "name": "Bar - T3",
+              "type": "RECTANGLE",
+              "x": 760,
+              "y": 350,
+              "width": 60,
+              "height": 150,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:68",
+              "name": "Bar - T4",
+              "type": "RECTANGLE",
+              "x": 860,
+              "y": 340,
+              "width": 60,
+              "height": 160,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.9058823585510254
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:69",
+              "name": "Label - T11",
+              "type": "TEXT",
+              "x": 375,
+              "y": 515,
+              "width": 19,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T11",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:70",
+              "name": "Label - T12",
+              "type": "TEXT",
+              "x": 475,
+              "y": 515,
+              "width": 21,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T12",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:71",
+              "name": "Label - T1",
+              "type": "TEXT",
+              "x": 580,
+              "y": 515,
+              "width": 14,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T1",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:72",
+              "name": "Label - T2",
+              "type": "TEXT",
+              "x": 680,
+              "y": 515,
+              "width": 15,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T2",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:73",
+              "name": "Label - T3",
+              "type": "TEXT",
+              "x": 780,
+              "y": 515,
+              "width": 16,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T3",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:74",
+              "name": "Label - T4",
+              "type": "TEXT",
+              "x": 880,
+              "y": 515,
+              "width": 15,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "T4",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:75",
+              "name": "Invoice Card",
+              "type": "RECTANGLE",
+              "x": 1033,
+              "y": 270,
+              "width": 380,
+              "height": 320,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:76",
+              "name": "Invoice Title",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 295,
+              "width": 197,
+              "height": 19,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.06666667014360428,
+                    "g": 0.0941176488995552,
+                    "b": 0.15294118225574493
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Hóa đơn chưa thanh toán",
+              "fontSize": 16,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.06666667014360428,
+                "g": 0.0941176488995552,
+                "b": 0.15294118225574493
+              }
+            },
+            {
+              "id": "23:77",
+              "name": "Header - Tenant",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 340,
+              "width": 51,
+              "height": 15,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.6117647290229797,
+                    "g": 0.6392157077789307,
+                    "b": 0.686274528503418
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "TENANT",
+              "fontSize": 12,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.6117647290229797,
+                "g": 0.6392157077789307,
+                "b": 0.686274528503418
+              }
+            },
+            {
+              "id": "23:78",
+              "name": "Invoice 1",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 370,
+              "width": 270,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Nguyễn Văn A • Phòng 101 • 3.500.000đ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:79",
+              "name": "Invoice 2",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 410,
+              "width": 247,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Trần Thị B • Phòng 205 • 4.200.000đ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:80",
+              "name": "Invoice 3",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 450,
+              "width": 258,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Lê Hoàng C • Phòng 302 • 2.800.000đ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:81",
+              "name": "Invoice 4",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 490,
+              "width": 251,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Phạm Thị D • Phòng 108 • 3.100.000đ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:82",
+              "name": "Invoice 5",
+              "type": "TEXT",
+              "x": 1073,
+              "y": 530,
+              "width": 263,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Hoàng Văn E • Phòng 201 • 4.500.000đ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:83",
+              "name": "Remind Button 1",
+              "type": "RECTANGLE",
+              "x": 1353,
+              "y": 366,
+              "width": 50,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:84",
+              "name": "Remind Button 2",
+              "type": "RECTANGLE",
+              "x": 1353,
+              "y": 406,
+              "width": 50,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:85",
+              "name": "Remind Button 3",
+              "type": "RECTANGLE",
+              "x": 1353,
+              "y": 446,
+              "width": 50,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:86",
+              "name": "Remind Button 4",
+              "type": "RECTANGLE",
+              "x": 1353,
+              "y": 486,
+              "width": 50,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:87",
+              "name": "Remind Button 5",
+              "type": "RECTANGLE",
+              "x": 1353,
+              "y": 526,
+              "width": 50,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:88",
+              "name": "Remind Text",
+              "type": "TEXT",
+              "x": 1361,
+              "y": 371,
+              "width": 28,
+              "height": 13,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8509804010391235,
+                    "g": 0.46666666865348816,
+                    "b": 0.0235294122248888
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Nhắc",
+              "fontSize": 11,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.8509804010391235,
+                "g": 0.46666666865348816,
+                "b": 0.0235294122248888
+              }
+            },
+            {
+              "id": "23:89",
+              "name": "Maintenance Card",
+              "type": "RECTANGLE",
+              "x": 300,
+              "y": 626,
+              "width": 700,
+              "height": 200,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:90",
+              "name": "Maintenance Title",
+              "type": "TEXT",
+              "x": 340,
+              "y": 651,
+              "width": 188,
+              "height": 19,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.06666667014360428,
+                    "g": 0.0941176488995552,
+                    "b": 0.15294118225574493
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Yêu cầu bảo trì mới nhất",
+              "fontSize": 16,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.06666667014360428,
+                "g": 0.0941176488995552,
+                "b": 0.15294118225574493
+              }
+            },
+            {
+              "id": "23:91",
+              "name": "Maintenance 1",
+              "type": "TEXT",
+              "x": 340,
+              "y": 696,
+              "width": 260,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Phòng 101 • Máy lạnh không hoạt động",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:92",
+              "name": "Maintenance 2",
+              "type": "TEXT",
+              "x": 340,
+              "y": 741,
+              "width": 175,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Phòng 205 • Vòi nước rò rỉ",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:93",
+              "name": "Maintenance 3",
+              "type": "TEXT",
+              "x": 340,
+              "y": 786,
+              "width": 229,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.21568627655506134,
+                    "g": 0.2549019753932953,
+                    "b": 0.3176470696926117
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Phòng 108 • Đèn nhà vệ sinh hỏng",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.21568627655506134,
+                "g": 0.2549019753932953,
+                "b": 0.3176470696926117
+              }
+            },
+            {
+              "id": "23:94",
+              "name": "Status Badge - Open 1",
+              "type": "RECTANGLE",
+              "x": 938,
+              "y": 686,
+              "width": 40,
+              "height": 20,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:95",
+              "name": "Status Text - Mới",
+              "type": "TEXT",
+              "x": 950,
+              "y": 690,
+              "width": 19,
+              "height": 12,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8509804010391235,
+                    "g": 0.46666666865348816,
+                    "b": 0.0235294122248888
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Mới",
+              "fontSize": 10,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.8509804010391235,
+                "g": 0.46666666865348816,
+                "b": 0.0235294122248888
+              }
+            },
+            {
+              "id": "23:96",
+              "name": "Status Badge - In Progress",
+              "type": "RECTANGLE",
+              "x": 900,
+              "y": 730,
+              "width": 80,
+              "height": 20,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8588235378265381,
+                    "g": 0.9176470637321472,
+                    "b": 0.9960784316062927
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:97",
+              "name": "Status Text - Đang xử lý",
+              "type": "TEXT",
+              "x": 917,
+              "y": 734,
+              "width": 52,
+              "height": 12,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.14509804546833038,
+                    "g": 0.38823530077934265,
+                    "b": 0.9215686321258545
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Đang xử lý",
+              "fontSize": 10,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.14509804546833038,
+                "g": 0.38823530077934265,
+                "b": 0.9215686321258545
+              }
+            },
+            {
+              "id": "23:98",
+              "name": "Status Badge - Open 2",
+              "type": "RECTANGLE",
+              "x": 938,
+              "y": 780,
+              "width": 40,
+              "height": 20,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9960784316062927,
+                    "g": 0.9529411792755127,
+                    "b": 0.7803921699523926
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:99",
+              "name": "Status Text - Mới 2",
+              "type": "TEXT",
+              "x": 950,
+              "y": 784,
+              "width": 19,
+              "height": 12,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8509804010391235,
+                    "g": 0.46666666865348816,
+                    "b": 0.0235294122248888
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "Mới",
+              "fontSize": 10,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.8509804010391235,
+                "g": 0.46666666865348816,
+                "b": 0.0235294122248888
+              }
+            },
+            {
+              "id": "23:105",
+              "name": "New Header",
+              "type": "RECTANGLE",
+              "x": 260,
+              "y": 0,
+              "width": 1180,
+              "height": 64,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:106",
+              "name": "New Logo",
+              "type": "TEXT",
+              "x": 290,
+              "y": 20,
+              "width": 133,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.30980393290519714,
+                    "g": 0.27450981736183167,
+                    "b": 0.8980392217636108
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "🏠 NhàTrọ Pro",
+              "fontSize": 20,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.30980393290519714,
+                "g": 0.27450981736183167,
+                "b": 0.8980392217636108
+              }
+            },
+            {
+              "id": "23:108",
+              "name": "Notification Badge",
+              "type": "RECTANGLE",
+              "x": 1372,
+              "y": 8,
+              "width": 18,
+              "height": 18,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9372549057006836,
+                    "g": 0.2666666805744171,
+                    "b": 0.2666666805744171
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 0
+            },
+            {
+              "id": "23:109",
+              "name": "Notification Number",
+              "type": "TEXT",
+              "x": 1372,
+              "y": 8,
+              "width": 8,
+              "height": 13,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "3",
+              "fontSize": 11,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            },
+            {
+              "id": "23:110",
+              "name": "Avatar",
+              "type": "RECTANGLE",
+              "x": 1400,
+              "y": 12,
+              "width": 40,
+              "height": 40,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.38823530077934265,
+                    "g": 0.4000000059604645,
+                    "b": 0.9450980424880981
+                  },
+                  "opacity": 1
+                }
+              ],
+              "borderRadius": 10
+            },
+            {
+              "id": "23:111",
+              "name": "Avatar Text",
+              "type": "TEXT",
+              "x": 1412,
+              "y": 20,
+              "width": 20,
+              "height": 17,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "OT",
+              "fontSize": 14,
+              "fontFamily": "Inter",
+              "fontWeight": "Bold",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            },
+            {
+              "id": "23:119",
+              "name": "Bell Icon",
+              "type": "TEXT",
+              "x": 1360,
+              "y": 12,
+              "width": 20,
+              "height": 20,
+              "visible": true,
+              "opacity": 1,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.41960784792900085,
+                    "g": 0.4470588266849518,
+                    "b": 0.501960813999176
+                  },
+                  "opacity": 1
+                }
+              ],
+              "text": "🔔",
+              "fontSize": 20,
+              "fontFamily": "Inter",
+              "fontWeight": "Regular",
+              "textAlign": "LEFT",
+              "textColor": {
+                "r": 0.41960784792900085,
+                "g": 0.4470588266849518,
+                "b": 0.501960813999176
+              }
+            }
+          ]
+        },
+        {
+          "id": "30:30",
+          "name": "Dashboard - Owner Redesign",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9700000286102295,
+                "g": 0.9800000190734863,
+                "b": 0.9900000095367432
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0
+        },
+        {
+          "id": "30:31",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "x": 100,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9725490212440491,
+                "g": 0.9764705896377563,
+                "b": 0.9882352948188782
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0
+        },
+        {
+          "id": "30:32",
+          "name": "Sidebar Redesign",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9700000286102295,
+                "g": 0.9800000190734863,
+                "b": 0.9900000095367432
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0
+        },
+        {
+          "id": "30:33",
+          "name": "Topbar Redesign",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9700000286102295,
+                "g": 0.9800000190734863,
+                "b": 0.9900000095367432
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0
+        },
+        {
+          "id": "30:34",
+          "name": "Dashboard - Owner Modern",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.9700000286102295,
+                "g": 0.9800000190734863,
+                "b": 0.9900000095367432
+              },
+              "opacity": 1
+            }
+          ],
+          "borderRadius": 0
+        },
+        {
+          "id": "30:39",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.30980393290519714,
+                "g": 0.27450981736183167,
+                "b": 0.8980392217636108
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 0.30980393290519714,
+            "g": 0.27450981736183167,
+            "b": 0.8980392217636108
+          }
+        },
+        {
+          "id": "30:40",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.38823530077934265,
+                "g": 0.4000000059604645,
+                "b": 0.9450980424880981
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 0.38823530077934265,
+            "g": 0.4000000059604645,
+            "b": 0.9450980424880981
+          }
+        },
+        {
+          "id": "30:41",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.38823530077934265,
+                "g": 0.4000000059604645,
+                "b": 0.9450980424880981
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 0.38823530077934265,
+            "g": 0.4000000059604645,
+            "b": 0.9450980424880981
+          }
+        },
+        {
+          "id": "30:42",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          }
+        },
+        {
+          "id": "30:43",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.08627451211214066,
+                "g": 0.6392157077789307,
+                "b": 0.29019609093666077
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 0.08627451211214066,
+            "g": 0.6392157077789307,
+            "b": 0.29019609093666077
+          }
+        },
+        {
+          "id": "30:44",
+          "name": "Text",
+          "type": "TEXT",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 15,
+          "visible": true,
+          "opacity": 1,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "text": "",
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": "Regular",
+          "textAlign": "LEFT",
+          "textColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          }
+        }
+      ]
+    }
+  ],
+  "styleHints": {
+    "defaultSize": {
+      "width": 1440,
+      "height": 900
+    },
+    "defaultBg": {
+      "r": 0.97,
+      "g": 0.98,
+      "b": 0.99
+    },
+    "allColors": [
+      {
+        "r": 0.9725490212440491,
+        "g": 0.9764705896377563,
+        "b": 0.9882352948188782
+      },
+      {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      {
+        "r": 0.9333333373069763,
+        "g": 0.9490196108818054,
+        "b": 1
+      },
+      {
+        "r": 0.30980393290519714,
+        "g": 0.27450981736183167,
+        "b": 0.8980392217636108
+      },
+      {
+        "r": 0.41960784792900085,
+        "g": 0.4470588266849518,
+        "b": 0.501960813999176
+      },
+      {
+        "r": 0.06666667014360428,
+        "g": 0.0941176488995552,
+        "b": 0.15294118225574493
+      },
+      {
+        "r": 0.6117647290229797,
+        "g": 0.6392157077789307,
+        "b": 0.686274528503418
+      },
+      {
+        "r": 0.14509804546833038,
+        "g": 0.38823530077934265,
+        "b": 0.9215686321258545
+      },
+      {
+        "r": 0.9607843160629272,
+        "g": 0.6196078658103943,
+        "b": 0.04313725605607033
+      },
+      {
+        "r": 0.9372549057006836,
+        "g": 0.2666666805744171,
+        "b": 0.2666666805744171
+      },
+      {
+        "r": 0.30980393290519714,
+        "g": 0.27450981736183167,
+        "b": 0.9058823585510254
+      },
+      {
+        "r": 0.21568627655506134,
+        "g": 0.2549019753932953,
+        "b": 0.3176470696926117
+      },
+      {
+        "r": 0.9960784316062927,
+        "g": 0.9529411792755127,
+        "b": 0.7803921699523926
+      },
+      {
+        "r": 0.8509804010391235,
+        "g": 0.46666666865348816,
+        "b": 0.0235294122248888
+      },
+      {
+        "r": 0.8588235378265381,
+        "g": 0.9176470637321472,
+        "b": 0.9960784316062927
+      },
+      {
+        "r": 0.38823530077934265,
+        "g": 0.4000000059604645,
+        "b": 0.9450980424880981
+      },
+      {
+        "r": 0.9700000286102295,
+        "g": 0.9800000190734863,
+        "b": 0.9900000095367432
+      },
+      {
+        "r": 0.08627451211214066,
+        "g": 0.6392157077789307,
+        "b": 0.29019609093666077
+      }
+    ],
+    "allFonts": [
+      "Inter Regular",
+      "Inter Bold"
+    ]
+  },
+  "meta": {
+    "totalNodes": 82,
+    "maxDepth": 8,
+    "maxNodes": 600,
+    "truncated": false
+  }
+}

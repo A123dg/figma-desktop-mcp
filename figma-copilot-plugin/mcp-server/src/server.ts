@@ -244,9 +244,10 @@ const httpServer = http.createServer(async (req, res) => {
         timeoutMs: z.number().optional(),
       });
       const parsed = schema.parse(body ?? {});
+      // Forward updates flattened so plugin receives fields at top-level
       result = await sendToFigma(
         'update_node',
-        { nodeId: parsed.nodeId, updates: parsed.updates },
+        Object.assign({ nodeId: parsed.nodeId }, parsed.updates ?? {}),
         parsed.timeoutMs ?? 30000
       );
     } else if (url.pathname === '/attach-node' && req.method === 'POST') {
@@ -263,12 +264,24 @@ const httpServer = http.createServer(async (req, res) => {
         { parentId: parsed.parentId, nodeId: parsed.nodeId, index: parsed.index },
         parsed.timeoutMs ?? 30000
       );
+    } else if (url.pathname === '/delete-node' && req.method === 'POST') {
+      const body = await parseBody(req);
+      const schema = z.object({
+        nodeId: z.string().min(1),
+        timeoutMs: z.number().optional(),
+      });
+      const parsed = schema.parse(body ?? {});
+      result = await sendToFigma(
+        'delete_node',
+        { nodeId: parsed.nodeId },
+        parsed.timeoutMs ?? 30000
+      );
     } else {
       res.writeHead(404, { 'Content-Type': 'application/json' });
       res.end(
         JSON.stringify({
           error:
-            'Not found. Use POST /scan | /generate | /prompt | /scan-and-prompt | /scan-to-file | /update-node | /attach-node',
+            'Not found. Use POST /scan | /generate | /prompt | /scan-and-prompt | /scan-to-file | /update-node | /attach-node | /delete-node',
         })
       );
       return;
@@ -387,6 +400,18 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           additionalProperties: false,
         },
       },
+      {
+        name: 'figma_delete_node',
+        description: 'Delete a node from Figma by nodeId.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            nodeId: { type: 'string' },
+          },
+          required: ['nodeId'],
+          additionalProperties: false,
+        },
+      },
     ],
   };
 });
@@ -477,6 +502,15 @@ server.setRequestHandler(CallToolRequestSchema, async (req) => {
     });
     const parsed = schema.parse(args ?? {});
     const result = await sendToFigma('attach_node', parsed);
+    return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+  }
+
+  if (name === 'figma_delete_node') {
+    const schema = z.object({
+      nodeId: z.string().min(1),
+    });
+    const parsed = schema.parse(args ?? {});
+    const result = await sendToFigma('delete_node', parsed);
     return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
   }
 
