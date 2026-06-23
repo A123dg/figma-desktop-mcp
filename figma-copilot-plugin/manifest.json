@@ -1,5 +1,5 @@
 {
-  "name": "figma-copilot-plugin",
+  "name": "figma-desktop-plugin",
   "id": "com.yourname.copilot1",
   "api": "1.0.0",
   "main": "dist/code.js",

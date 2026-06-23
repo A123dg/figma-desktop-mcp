@@ -1,4 +1,4 @@
-﻿/// <reference types="@figma/plugin-typings" />
+/// <reference types="@figma/plugin-typings" />
 
 import uiHtml from './ui/index.html';
 import {

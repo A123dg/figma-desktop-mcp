@@ -1,6 +1,6 @@
 # Clone repository
 git clone <repository-url>
-cd figma-copilot-plugin
+cd figma-desktop-plugin
 
 # Cài đặt dependencies cho plugin
 npm install
@@ -16,7 +16,7 @@ npm run build
 cd mcp-server
 npm run build
 cd ..
-  Trong mcp.json: sửa cwd đúng đường dẫn VD:       "cwd": "c:\\Users\\User\\Desktop\\figma\\figma-copilot-plugin\\mcp-server"
+  Trong mcp.json: sửa cwd đúng đường dẫn VD:       "cwd": "c:\\Users\\User\\Desktop\\figma\\figma-desktop-plugin\\mcp-server"
   Cài đặt Figma Plugin
 Mở Figma Desktop App
 Vào menu Plugins → Development → Import plugin from manifest
